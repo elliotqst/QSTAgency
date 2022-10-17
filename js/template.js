@@ -77,7 +77,7 @@
 		});
 
 		// counter Satisfied clients
-		var maxScVal = 97;
+		var maxScVal = 0;
 		var isc = parseInt($('.scVal').text());
 		var tim;
 		function run() {
@@ -92,8 +92,8 @@
 		run();
 		//Counters
 
-		// counter finished Projects
-		var maxfPVal = 3214;
+		// Revenue
+		var maxfPVal = 0;
 		var ifP = parseInt($('.fpVal').text());
 		var timfP;
 		function runfP() {
@@ -111,7 +111,7 @@
 		//finished Projects
 
 		//counter Team Members
-		var maxtMVal = 125;
+		var maxtMVal = 1;
 		var itm = parseInt($('.tMVal').text());
 		var timtM;
 		function runtM() {
@@ -121,13 +121,13 @@
 					return;
 				}
 				$('.tMVal').text(++itm);
-			}, 100);
+			}, 1000);
 		}
 		runtM();
 		//Team Members
 
 		//counter blog post
-		var maxbPVal = 2135;
+		var maxbPVal = 1;
 		var ibP = parseInt($('.bPVal').text());
 		var timbP;
 		function runbP() {
@@ -138,7 +138,7 @@
 				}
 				$('.bPVal').text(++ibP);
 
-			}, 1);
+			}, 1000);
 		}
 		runbP();
 		//blog post
