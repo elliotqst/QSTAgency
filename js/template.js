@@ -111,7 +111,7 @@
 		//finished Projects
 
 		//counter Team Members
-		var maxtMVal = 1;
+		var maxtMVal = 2;
 		var itm = parseInt($('.tMVal').text());
 		var timtM;
 		function runtM() {
@@ -121,7 +121,7 @@
 					return;
 				}
 				$('.tMVal').text(++itm);
-			}, 1000);
+			}, 500);
 		}
 		runtM();
 		//Team Members
@@ -138,7 +138,7 @@
 				}
 				$('.bPVal').text(++ibP);
 
-			}, 1000);
+			}, 500);
 		}
 		runbP();
 		//blog post
